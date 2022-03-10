@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html> 
+      <head> 
+            <title>
+            Matemáticas Molière
+            </title>
+          <meta charset = 'utf-8'>
+      </head>
+	<h1> MATEMÁTICAS MOLIÈRE </h1>
+<style>
+	body {
+ 		
+  		background-color: #50b033;	
+
+}
+
+body::before {
+  		background-image: url("figuras/fondomates.jpg");
+  		content: "";
+  		opacity: 0.9;
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		right: 0;
+  		left: 0;
+  		z-index: -1;   
+		}
+
+/*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
+
+.center{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Le damos formato a los encabezados H1*/
+h1 {
+  font-weight: bold;
+  text-align: center;  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #fff;
+  
+}
+
+h2 {
+
+  font-weight: bold;
+  text-align: left;  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: Tomato	;
+
+}
+
+p, ul {
+
+  font-family: Verdana, Helvetica, sans-serif;
+  color: #000;
+  font-size: 24px; 
+
+}
+
+
+/*Le damos formato a los pies de imagen*/
+figcaption {
+
+  text-align: center;
+}
+
+
+/*Le damos formato a las imágenes*/
+img {
+  
+  display: block;
+  width: 250px;
+  height: 225px;
+  width: 100%;
+
+}
+</style>
+
+
+      
+<body> 
+
+           <table border = '12' class= "center">
+                 <tr><!-- creamos la primera fila -->
+                     <td><a href = 'html/origen.html'><img src = 'figuras/foto2.jpg'><figcaption>Origen</figcaption></a></td>
+                     <td><a href = 'html/ballenajorobada.html'><img src = 'figuras/foto1.jpg'><figcaption>Calculadora</figcaption></a></td>  
+                 </tr>
+                 <tr><!-- creamos la segunda fila -->
+                     <td><a href = 'html/delfin.html'><img src = 'figuras/foto3.jpg'><figcaption>Ecuaciones</figcaption></a></td> <!-- creamos la primera columna -->
+                     <td><a href = 'html/delfinderio.html'><img src = 'figuras/foto4.jpg'><figcaption>Curiosidades</figcaption></a></td> <!-- creamos la segunda columna -->
+                    
+                 </tr>
+           </table>
+      </body> 
+
+</html>
+
+
+
+
